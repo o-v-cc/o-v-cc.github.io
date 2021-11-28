@@ -2,8 +2,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <script src="https://kit.fontawesome.com/ca7fa59bfa.js" crossorigin="anonymous"></script>
+
   <title>
-    {% if page.title == 'home' %}
+    {% if page.title == 'HOME' %}
       {{ site.title }}
     {%- else -%}
       {{ site.title }} / {{ page.title }}
@@ -26,7 +28,6 @@
       <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
     {%- endif -%}
   {%- endif -%}
-
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
