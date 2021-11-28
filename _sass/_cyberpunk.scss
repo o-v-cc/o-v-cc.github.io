@@ -1,13 +1,13 @@
 /**
- * Hacker theme variables
+ * Dark theme variables
  */
 
 :root {
-  --base-color: 	#10d4df;
-  --border: dashed 1px rgba(10,189,198, 0.9);
-  --selection-background: rgba(138, 46, 172, 0.99);
-  --selection-text: 	#ecd654;
-  --background-color: #000b22;
+  --base-color: 	#0abdc6;
+  --border: dashed 1px rgba(219, 219, 219, 0.9);
+  --selection-background: rgba(219, 219, 219, 0.99);
+  --selection-text: 	#711c91;
+  --background-color: #091833;
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
   --link-color: var(--base-color);
