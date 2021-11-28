@@ -1,5 +1,8 @@
 # Example Site settings
 
+title: o-v.cc
+url: o-v.cc
+baseurl: /
 #google_analytics: UA-NNNNNNNN-N
 
 header_pages:
@@ -13,3 +16,4 @@ style: hacker # dark (default) or light
 
 plugins:
   - jekyll-seo-tag
+

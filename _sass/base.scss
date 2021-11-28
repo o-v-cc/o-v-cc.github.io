@@ -26,11 +26,12 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
  */
 .container { width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; margin-bottom: 15px; }
-footer { color: var(--text-color);  border-top: var(--border);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
-header { margin-top: 25px;  margin-bottom: 10px; }
+footer { color: var(--text-color);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
+header { text-align: center; margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: center;  margin: 0; line-height: 1; font-size: 1vw; }
 header a { text-decoration: none; }
 footer { margin-bottom: 20px; }
+main { border: var(--border); padding-left: 22px; padding-right: 22px;}
 
 /**
  * Highlight/Markup
@@ -48,8 +49,8 @@ footer { margin-bottom: 20px; }
 /**
  * Header/Navigation
  */
-.menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
-.menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
+.menu { }
+.menu ul { padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
