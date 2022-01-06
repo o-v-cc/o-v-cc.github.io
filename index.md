@@ -1,5 +1,6 @@
 ---
-title: HOME
+title: Home
+icon: home
 layout: home
 permalink: /
 tags: [welcome]

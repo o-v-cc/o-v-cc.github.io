@@ -38,7 +38,7 @@
 
 .menu {
   margin: 16px 0 0 0;
-  padding: 10px 10px 10px 4px;
+  padding: 6px 2px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -54,9 +54,9 @@
 }
 .menu ul li a {
   box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
-  padding: 6px;
-  padding-left: 24px;
-  padding-right: 8px;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
   font-weight: bold;
 }
 .menu ul li a:hover {
@@ -64,4 +64,9 @@
   color: var(--text-color);
   background-color: silver;
   box-shadow: inset 1px 1px black, inset -2px -2px white, -1px -1px #666666;
+}
+.menu ul li a img {
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 2px;
 }
