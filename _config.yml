@@ -7,7 +7,9 @@ baseurl: /
 
 header_pages:
  - index.md
- - about.md
+#  - about.md
+
+permalink: /:categories/:title:output_ext
 
 footer: 'ANOTHER FIGHT IS COMING YOUR WAY!'
 

@@ -30,6 +30,21 @@
   --code-color-17: #800000;
   --code-color-18: #bbbbbb;
 }
+header .logo {
+  box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
+  background: silver;
+  padding: 4px 6px;
+  color: var(--text-color);
+  letter-spacing: .1em;
+  font-size: 1.2em;
+}
+header .logo:hover {
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: silver;
+  box-shadow: inset 1px 1px black, inset -2px -2px white, -1px -1px #666666;
+
+}
 
 .container {
   max-width: none;
@@ -67,6 +82,6 @@
 }
 .menu ul li a img {
   height: 22px;
-  vertical-align: middle;
+  vertical-align: bottom  ;
   margin-right: 2px;
 }
