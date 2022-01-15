@@ -97,11 +97,17 @@ header .logo:hover {
   height: 24px;
 }
 .menu ul .right a {
-  display: flex;
+  display: inline-flex;
+  vertical-align: bottom;
 }
 .menu ul .right a:hover {
   background-color: silver;
 }
 .menu ul .right img {
   width: 24px;
+}
+.menu ul .right .time {
+  display: inline-flex;
+  vertical-align: bottom;
+  padding: 0px 4px;
 }
