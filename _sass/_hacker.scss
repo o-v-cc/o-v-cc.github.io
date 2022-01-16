@@ -52,12 +52,28 @@ header .logo:hover {
 }
 main {
   border: none;
-  padding: 0 40px;
+  padding: 0 14%;
 }
 .window {
   border: none;
   box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
   background: silver;
+  padding-top: 1px;
+}
+.window .title {
+  color: #fff;
+  background: #000080;
+  margin: 2px 3px;
+  padding: 2px 2px 2px 3px;
+  display: flex;
+  font-weight: bold;
+}
+.window .title .icon {
+  width: 18px;
+  height: 18px;
+  padding: 2px;
+}
+.window .content {
   padding: 24px;
 }
 .menu {
