@@ -5,8 +5,11 @@ clock();
 function clock() {
     const date = new Date();
 
-    const hours = date.getHours();
-    const minutes = date.getMinutes();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    if (minutes < 10) {
+        minutes = "0" + minutes.toString();
+    }
 
     const hour = document.getElementsByClassName("hour");
     const minute = document.getElementsByClassName("minute");
