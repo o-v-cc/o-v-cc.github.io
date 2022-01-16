@@ -137,3 +137,9 @@ main {
   vertical-align: bottom;
   padding: 0px 4px;
 }
+
+@media ( max-width: 767px ) {
+  main {
+    padding: 0;
+  }
+}
