@@ -50,7 +50,16 @@ header .logo:hover {
   max-width: none;
   width: auto;
 }
-
+main {
+  border: none;
+  padding: 0 40px;
+}
+.window {
+  border: none;
+  box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
+  background: silver;
+  padding: 24px;
+}
 .menu {
   margin: 16px 0 0 0;
   padding: 6px 2px;
