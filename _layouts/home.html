@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-
-{{ content }}
+<div class="title"><span>{{ page.title }}</span></div>
+<div class="content">
+    {{ content }}
+</div>
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
