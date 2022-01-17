@@ -44,7 +44,7 @@ main { border: var(--border); padding-left: 22px; padding-right: 22px;}
  */
 :not(.menu) > ul { list-style: none;  padding-left: 0; }
 :not(.menu) > ul { list-style-type: none; }
-:not(.menu) > ul > li:before { content: "-";  margin-right: 9px; }
+// :not(.menu) > ul > li:before { content: "-";  margin-right: 9px; }
 
 /**
  * Header/Navigation

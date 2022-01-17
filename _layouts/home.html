@@ -2,18 +2,14 @@
 layout: default
 ---
 <div class="title"><span>{{ page.title }}</span></div>
-<div class="content">
-    {{ content }}
-</div>
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
-
-{%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
+<div class="window-container">
+  <div class="welcome">OV에 오신 것을 환영합니다!</div>
+  <div class="content">
+      {{ content }}
+  </div>
+  <div class="categories">
+    {% for category in site.categories %}
+    <a href="/{{ category[0] }}">{{ category[0] }}</a>
     {%- endfor -%}
-  </ul>
-{%- endif -%}
+  </div>
+</div>
