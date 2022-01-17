@@ -1,6 +1,8 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
-  <a class="logo" style="white-space: break-spaces !important; line-height: 1;" href="/">o-v.cc</a>
+  <div class="logo-window">
+    <a class="logo" style="white-space: break-spaces !important; line-height: 1;" href="/">o-v.cc</a>
+  </div>
   <div class="menu">
     <ul>
       {%- for path in page_paths -%}

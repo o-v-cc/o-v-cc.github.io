@@ -30,20 +30,32 @@
   --code-color-17: #800000;
   --code-color-18: #bbbbbb;
 }
-header .logo {
+header {
+  display: flex;
+}
+header .logo-window {
+  display: flex;
   box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
   background: silver;
-  padding: 4px 6px;
-  color: var(--text-color);
-  letter-spacing: .1em;
-  font-size: 1.2em;
+  margin: 0 14%;
+  height: 32px;
+  width: 100%;
 }
-header .logo:hover {
+header .logo-window:hover {
   text-decoration: none;
   color: var(--text-color);
   background-color: silver;
   box-shadow: inset 1px 1px black, inset -2px -2px white, -1px -1px #666666;
-
+}
+header .logo-window .logo {
+  color: var(--text-color);
+  letter-spacing: .1em;
+  font-size: 1.2em;
+  width: 100%;
+}
+header .logo-window .logo:hover {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .container {
@@ -79,7 +91,7 @@ main {
 .menu {
   margin: 16px 0 0 0;
   padding: 6px 2px;
-  padding-bottom: 8px;
+  padding-bottom: 7px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -121,6 +133,7 @@ main {
   box-shadow: inset -2px -2px white, inset 2px 2px #888888;
   padding: 4px 6px;
   height: 24px;
+  background: silver;
 }
 .menu ul .right a {
   display: inline-flex;
@@ -139,6 +152,12 @@ main {
 }
 
 @media ( max-width: 767px ) {
+  header {
+    margin: 0;
+  }
+  header .logo-window {
+    margin: 0;
+  }
   main {
     padding: 0;
   }
