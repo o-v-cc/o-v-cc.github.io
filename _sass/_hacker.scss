@@ -38,7 +38,6 @@ header .logo-window {
   box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
   background: silver;
   margin: 0 14%;
-  height: 32px;
   width: 100%;
 }
 header .logo-window:hover {
@@ -51,11 +50,16 @@ header .logo-window .logo {
   color: var(--text-color);
   letter-spacing: .1em;
   font-size: 1.2em;
+  font-weight: bolder;
   width: 100%;
 }
 header .logo-window .logo:hover {
   text-decoration: none;
   background-color: transparent;
+}
+header .logo-window .logo img {
+  height: 44px;
+  vertical-align: middle;
 }
 
 .container {
