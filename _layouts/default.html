@@ -6,7 +6,12 @@
 
   {%- include head.html -%}
   <body>
-
+    <div class="background-icons">
+      <a href="/"><img class="menu-icon" src="/upload/logo.png">home</a>
+      {% for category in site.categories %}
+      <a href="/{{ category[0] }}"><img class="menu-icon" src="/upload/{{ category[0] }}.png">{{ category[0] }}</a>
+      {% endfor %}
+    </div>
     <div class="container">
 
       {%- include header.html -%}

@@ -32,12 +32,13 @@
 }
 header {
   display: flex;
+  margin-top: 60px;
 }
 header .logo-window {
   display: flex;
   box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
   background: silver;
-  margin: 0 14%;
+  margin: 0 18%;
   width: 100%;
 }
 header .logo-window:hover {
@@ -61,7 +62,24 @@ header .logo-window .logo img {
   height: 44px;
   vertical-align: middle;
 }
-
+.background-icons {
+  width: 100px;
+  position: absolute;
+  top: 22px;
+  z-index: -1;
+}
+.background-icons a {
+  text-align: center;
+  display: grid;
+  margin-bottom: 22px;
+  gap: 4px;
+  text-decoration: none;
+}
+.background-icons a img{
+  width: 100%;
+  object-fit: contain;
+  height: 44px;
+}
 .container {
   max-width: none;
   width: auto;
@@ -75,6 +93,9 @@ main {
   box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
   background: silver;
   padding-top: 1px;
+  max-width: 888px;
+  float: right;
+  width: 100%;
 }
 .window .title {
   color: #fff;
@@ -189,8 +210,16 @@ main {
   vertical-align: bottom;
   padding: 0px 4px;
 }
+footer {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+}
 
 @media ( max-width: 767px ) {
+  .background-icons {
+    display: none;
+  }
   header {
     margin: 0;
   }
