@@ -104,6 +104,26 @@ main {
   padding: 2px 2px 2px 3px;
   display: flex;
   font-weight: bold;
+  justify-content: space-between;
+}
+.window .title>div {
+  display: flex;
+}
+.window .title .close {
+  float: right;
+}
+.window .title .close::after {
+  display: block;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 0.66;
+  width: 22px;
+  height: 22px;
+  color: #000;
+  text-align: center;
+  background-color: silver;
+  box-shadow: inset -1px -1px #666666, 1px 1px 1px black, inset 2px 2px white;
+  content: "\00d7";
 }
 .window .title .icon {
   width: 18px;

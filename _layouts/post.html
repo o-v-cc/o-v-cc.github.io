@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-<div class="title"><img class="icon" src="/upload/{{ page.categories }}.png"><span>{{ page.title }}</span></div>
+<div class="title">
+    <div>
+        <img class="icon" src="/upload/{{ page.categories }}.png"><span>{{ page.title }}</span>
+    </div>
+    <div class="close"></div>
+</div>
 <div class="content">
     {{ content }}
 </div>
