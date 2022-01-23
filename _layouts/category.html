@@ -1,13 +1,26 @@
 ---
 layout: default
 ---
-<div class="title">
+<div class="window-title">
     <div>
         <img class="icon" src="/upload/{{ page.title }}.png"><span>{{ page.title }}</span>
     </div>
     <div class="close"></div>
 </div>
-<div class="content">
-    {{ content }}
+<div class="window-menu">
+    <span class="menu">
+        <span class="underline">F</span><span>ile</span>
+    </span>
+    <span class="menu">
+        <span class="underline">E</span><span>dit</span>
+    </span>
+    <span class="menu">
+        <span class="underline">D</span><span>ate</span>
+    </span>
+</div>
+<div class="category window-container">
+    <div class="content">
+        {{ content }}
+    </div>
 </div>
 
