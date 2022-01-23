@@ -301,6 +301,13 @@ footer {
       .content {
         grid-column: 1/4;
       }
+      .categories::before {
+        content: "";
+        display: block;
+        border-top: 1px solid black;
+        border-bottom: 1px solid white;
+        margin-bottom: 12px;
+      }
       .categories {
         grid-row: 5/5;
         grid-column: 1/4;
