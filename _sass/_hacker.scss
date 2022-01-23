@@ -296,4 +296,15 @@ footer {
   main {
     padding: 0;
   }
+  .window {
+    .home {
+      .content {
+        grid-column: 1/4;
+      }
+      .categories {
+        grid-row: 5/5;
+        grid-column: 1/4;
+      }
+    }
+  }
 }
