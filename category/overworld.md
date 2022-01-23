@@ -7,6 +7,8 @@ tags: [overworld]
 ---
 
 # overworld
+인터넷을 통해 세상과의 소통을 꿈꿉니다.
+
 {% for category in site.categories %}
   {%- if category[0] == 'overworld' -%}
     <div>

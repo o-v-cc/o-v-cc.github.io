@@ -7,6 +7,9 @@ tags: [overlab]
 ---
 
 # overlab
+__실험__ 적인 것들을 연구하고 개발하는 __overlab__ 입니다.
+상상을 현실로 만듭니다.
+
 {% for category in site.categories %}
   {%- if category[0] == 'overlab' -%}
     <div>
